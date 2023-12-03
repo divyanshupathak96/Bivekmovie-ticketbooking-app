@@ -1,0 +1,27 @@
+#status{
+    width: 20%;
+    height: 70vh;
+    border-left: 1px solid #808080;
+}
+
+#status .status-inner-wrapper{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#status .status-inner-wrapper > div{
+    display: flex;
+    align-items: center;
+}
+
+#status div svg{
+    margin: 0 3rem;
+}
+
+#status div h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #808080;
+}
